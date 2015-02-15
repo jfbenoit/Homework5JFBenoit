@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ArtViewController.h
 //  Homework5JFBenoit
 //
 //  Created by Jacob Benoit on 2/14/15.
@@ -8,9 +8,6 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface ViewController : NSViewController
-
-
+@interface ArtViewController : NSView
 
 @end
-

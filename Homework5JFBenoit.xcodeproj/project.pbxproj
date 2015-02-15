@@ -13,6 +13,12 @@
 		16013BBF1A8FD5B000CFD476 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16013BBE1A8FD5B000CFD476 /* Images.xcassets */; };
 		16013BC21A8FD5B000CFD476 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16013BC01A8FD5B000CFD476 /* Main.storyboard */; };
 		16013BCE1A8FD5B000CFD476 /* Homework5JFBenoitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16013BCD1A8FD5B000CFD476 /* Homework5JFBenoitTests.m */; };
+		16013BD91A8FD89A00CFD476 /* StockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16013BD81A8FD89A00CFD476 /* StockViewController.m */; };
+		16013BDC1A8FD8B500CFD476 /* ShapeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16013BDB1A8FD8B500CFD476 /* ShapeViewController.m */; };
+		16013BDF1A8FD8C800CFD476 /* ArtViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16013BDE1A8FD8C800CFD476 /* ArtViewController.m */; };
+		16013BE31A8FF7EF00CFD476 /* pattern.png in Resources */ = {isa = PBXBuildFile; fileRef = 16013BE21A8FF7EF00CFD476 /* pattern.png */; };
+		16013BE61A90343500CFD476 /* Complex.m in Sources */ = {isa = PBXBuildFile; fileRef = 16013BE51A90343500CFD476 /* Complex.m */; };
+		16013BE81A904DB600CFD476 /* notes.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 16013BE71A904DB600CFD476 /* notes.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +44,16 @@
 		16013BC71A8FD5B000CFD476 /* Homework5JFBenoitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Homework5JFBenoitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16013BCC1A8FD5B000CFD476 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16013BCD1A8FD5B000CFD476 /* Homework5JFBenoitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Homework5JFBenoitTests.m; sourceTree = "<group>"; };
+		16013BD71A8FD89A00CFD476 /* StockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockViewController.h; sourceTree = "<group>"; };
+		16013BD81A8FD89A00CFD476 /* StockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StockViewController.m; sourceTree = "<group>"; };
+		16013BDA1A8FD8B500CFD476 /* ShapeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShapeViewController.h; sourceTree = "<group>"; };
+		16013BDB1A8FD8B500CFD476 /* ShapeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShapeViewController.m; sourceTree = "<group>"; };
+		16013BDD1A8FD8C800CFD476 /* ArtViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtViewController.h; sourceTree = "<group>"; };
+		16013BDE1A8FD8C800CFD476 /* ArtViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtViewController.m; sourceTree = "<group>"; };
+		16013BE21A8FF7EF00CFD476 /* pattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pattern.png; sourceTree = "<group>"; };
+		16013BE41A90343500CFD476 /* Complex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Complex.h; sourceTree = "<group>"; };
+		16013BE51A90343500CFD476 /* Complex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Complex.m; sourceTree = "<group>"; };
+		16013BE71A904DB600CFD476 /* notes.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = notes.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,12 +95,22 @@
 		16013BB31A8FD5B000CFD476 /* Homework5JFBenoit */ = {
 			isa = PBXGroup;
 			children = (
+				16013BE21A8FF7EF00CFD476 /* pattern.png */,
 				16013BB61A8FD5B000CFD476 /* AppDelegate.h */,
 				16013BB71A8FD5B000CFD476 /* AppDelegate.m */,
 				16013BBB1A8FD5B000CFD476 /* ViewController.h */,
 				16013BBC1A8FD5B000CFD476 /* ViewController.m */,
 				16013BBE1A8FD5B000CFD476 /* Images.xcassets */,
 				16013BC01A8FD5B000CFD476 /* Main.storyboard */,
+				16013BD71A8FD89A00CFD476 /* StockViewController.h */,
+				16013BD81A8FD89A00CFD476 /* StockViewController.m */,
+				16013BDA1A8FD8B500CFD476 /* ShapeViewController.h */,
+				16013BDB1A8FD8B500CFD476 /* ShapeViewController.m */,
+				16013BDD1A8FD8C800CFD476 /* ArtViewController.h */,
+				16013BDE1A8FD8C800CFD476 /* ArtViewController.m */,
+				16013BE71A904DB600CFD476 /* notes.rtf */,
+				16013BE41A90343500CFD476 /* Complex.h */,
+				16013BE51A90343500CFD476 /* Complex.m */,
 				16013BB41A8FD5B000CFD476 /* Supporting Files */,
 			);
 			path = Homework5JFBenoit;
@@ -196,6 +222,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16013BE81A904DB600CFD476 /* notes.rtf in Resources */,
+				16013BE31A8FF7EF00CFD476 /* pattern.png in Resources */,
 				16013BBF1A8FD5B000CFD476 /* Images.xcassets in Resources */,
 				16013BC21A8FD5B000CFD476 /* Main.storyboard in Resources */,
 			);
@@ -215,9 +243,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16013BDF1A8FD8C800CFD476 /* ArtViewController.m in Sources */,
 				16013BBD1A8FD5B000CFD476 /* ViewController.m in Sources */,
+				16013BDC1A8FD8B500CFD476 /* ShapeViewController.m in Sources */,
 				16013BBA1A8FD5B000CFD476 /* main.m in Sources */,
+				16013BE61A90343500CFD476 /* Complex.m in Sources */,
 				16013BB81A8FD5B000CFD476 /* AppDelegate.m in Sources */,
+				16013BD91A8FD89A00CFD476 /* StockViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
